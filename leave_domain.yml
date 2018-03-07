@@ -1,0 +1,34 @@
+intents:
+  - greet
+  - goodbye
+  - days_total
+  - days_left
+  - take_vacation
+  - cancel_last_vacation
+
+actions:
+- utter_greet
+- say_days_total
+- say_days_left
+- act_take_vacation
+- act_cancel_last_vacation
+- utter_goodbye
+
+templates:
+  utter_greet:
+  - text: "Hey! What can I do for you? (days total - days left - take vacation - cancel vacation"
+    
+  say_days_total:
+  - text: "You have 30 vacation days in total"
+
+  say_days_left:
+  - text: "You have 15 days left"
+
+  act_take_vacation:
+  - text: "I have taken 5 days vacation for you"
+
+  act_cancel_last_vacation:
+  - text: "I have canceled the last vacation for you"
+
+  utter_goodbye:
+  - text: "Bye"
