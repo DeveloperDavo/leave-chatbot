@@ -1,9 +1,0 @@
-import requests
-
-headers = {
-  'user-agent': 'my-app/0.0.1',
-  'Accept': 'text/plain'
-}
-url = 'https://icanhazdadjoke.com/'
-r = requests.get(url, headers=headers)
-print(r.text)
