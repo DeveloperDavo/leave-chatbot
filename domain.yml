@@ -7,6 +7,8 @@ intents:
   - cancel_last_vacation
   - joke
 
+action_factory: remote
+
 actions:
 - utter_greet
 - say_days_total
@@ -15,25 +17,3 @@ actions:
 - act_cancel_last_vacation
 - utter_goodbye
 - utter_joke
-
-templates:
-  utter_greet:
-  - text: "Hey! What can I do for you? (days total - days left - take vacation - cancel vacation"
-    
-  say_days_total:
-  - text: "You have 30 vacation days in total"
-
-  say_days_left:
-  - text: "You have 15 days left"
-
-  act_take_vacation:
-  - text: "I have taken 5 days vacation for you"
-
-  act_cancel_last_vacation:
-  - text: "I have canceled the last vacation for you"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_joke:
-  - text: "This is a joke!"
