@@ -43,3 +43,8 @@
 - i want to cancel my vacations
 - want cancel
 - want cancel vacation
+
+## intent:joke
+- joke
+- tell me a joke
+- make me laugh

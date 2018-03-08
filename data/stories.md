@@ -21,3 +21,8 @@
 ## good bye
 * goodbye
   - utter_goodbye
+
+## joke
+* joke
+  - utter_joke
+
