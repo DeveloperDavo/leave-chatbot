@@ -4,7 +4,7 @@ This chatbot uses [Rasa](http://rasa.com/).
 ## Installation
 Install rasa_core with `pip install rasa_core` <br/>
 
-Install Spacy with medium sized modules
+Install Spacy with medium sized modules:
 ```
 pip install -U spacy
 python -m spacy download en_core_web_md
